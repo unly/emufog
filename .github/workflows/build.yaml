@@ -1,8 +1,8 @@
 name: clean-build
 on: push
-runs-on: ubuntu-18.04
 jobs:
   build:
+    - runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
       - name: clean
